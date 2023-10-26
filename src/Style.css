@@ -1,0 +1,49 @@
+.gjs-pn-views-container{
+    top: 41px;
+    left: 0;
+    padding: 0px;
+}
+
+.gjs-frame {
+    width: 40%;
+}
+
+.gjs-cv-canvas {
+    width: 70%;
+    right: 0 !important;
+    left: unset;
+}
+
+.gjs-cv-canvas-bg{
+    background-color: #F2F2F2;
+}
+
+.gjs-editor {
+    background-color: #F2F2F2 !important;
+}
+
+.gjs-blocks-cs{
+    padding: 10px 5px;
+ background-color: #FFF !important;
+ color: black !important;   
+}
+
+.gjs-block-categories{
+    gap: 3px;
+}
+
+.gjs-block{
+    background-color: #FFF !important;
+}
+
+.gjs-block:hover{
+    color: #E65925 !important;
+}
+
+.gjs-title{
+    background-color: #F2F2F2 !important;
+}
+
+.gjs-pn-panel{
+    background-color: #FFF !important;
+}
