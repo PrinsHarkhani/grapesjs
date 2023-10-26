@@ -3,7 +3,7 @@ import grapesjs from 'grapesjs';
 import 'grapesjs/dist/css/grapes.min.css';
 import gjsPresetWebpage from 'grapesjs-preset-webpage';
 import gjsPluginExport from 'grapesjs-plugin-export';
-import gjsTabs from 'grapesjs-tabs';
+// import gjsTabs from 'grapesjs-tabs';
 import gjsimageeditor from 'grapesjs-tui-image-editor';
 import MyCustomPlugin from './MyCustomPlugin';
 import 'grapesjs-plugin-forms';
