@@ -1,3 +1,12 @@
+import email from "./assets/icons/email.svg";
+import call from "./assets/icons/call.svg";
+import text from "./assets/icons/text.svg";
+import connect from "./assets/icons/connect.svg";
+import facebook from "./assets/icons/facebook.svg";
+import tiktok from "./assets/icons/tiktok.svg";
+import instagram from "./assets/icons/instagram.svg";
+import bookme from "./assets/icons/bookme.svg";
+
 export const cardHTML = `
 <div class="default-section">
 <div class="onetap_conn_personal_card">

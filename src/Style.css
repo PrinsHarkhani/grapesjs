@@ -1,11 +1,17 @@
 .gjs-pn-views-container{
-    top: 41px;
-    left: 0;
+    top: 42px;
+    left: 191px;
     padding: 0px;
+    height: 95%;
+    width: 17%;
 }
 
 .gjs-frame {
     width: 40%;
+}
+
+.gjs-frame-wrapper{
+    top: 1px !important;
 }
 
 .gjs-cv-canvas {
@@ -23,7 +29,7 @@
 }
 
 .gjs-blocks-cs{
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
  background-color: #FFF !important;
  color: black !important;   
 }
@@ -34,6 +40,8 @@
 
 .gjs-block{
     background-color: #FFF !important;
+    /* width: 95%; */
+    padding: 5px;
 }
 
 .gjs-block:hover{
@@ -47,3 +55,199 @@
 .gjs-pn-panel{
     background-color: #FFF !important;
 }
+
+#layers-container{
+    position: absolute;
+    width: 15%;
+    /* left: 1; */
+    top: 30%;
+}
+
+.gjs-layers {
+    background-color: white;
+    padding: 2px 0px;
+}
+
+
+.gjs-layer-title  {
+    background-color: #F2F2F2;
+    color: black;
+    font-weight: lighter;
+}
+
+
+.gjs-layer.gjs-selected .gjs-layer-title,
+.gjs-layer.gjs-hovered .gjs-layer-title {
+    background-color: #F2F2F2;
+    color: black;
+    font-weight: lighter;
+}
+
+.gjs-layer-vis path,
+.gjs-layer-move path {
+    fill: black; /* Change 'red' to your desired color */
+}
+.gjs-layer-count {
+    color: black; /* Change 'red' to your desired color */
+  }
+
+/* .gjs-layer-count{
+    display: none !important;
+} */
+
+.gjs-clm-tags{
+    background-color: white !important;
+    /* display: none; */
+}
+.gjs-sm-sectors{
+    background-color: white !important;
+}
+.gjs-sm-sector{
+    background-color: #FFF !important;
+    padding: 2px 4px;
+    color: black;
+}
+
+.gjs-sm-sector-title{
+    background-color: #F2F2F2 !important;
+}
+
+.gjs-four-color{
+    color: #E65925 !important;
+}
+.gjs-field{
+    background-color: #F2F2F2;
+    color: black;
+}
+
+.gjs-d-s-arrow{
+    border-top: 4px solid black !important;
+}
+
+.gjs-field-arrow-u{
+    border-bottom: 4px solid black !important;
+}
+
+.gjs-field-arrow-d{
+    border-top: 4px solid black !important;
+}
+
+.gjs-sm-field.gjs-sm-composite{
+    background-color: white;
+}
+.gjs-sm-field input{
+    color: black;
+}
+.gjs-sm-field select{
+    color: black;
+}
+
+#gjs-sm-add{
+    color: black !important;
+}
+
+.gjs-field-integer input{
+    padding-right: 0px !important;
+}
+
+.gjs-clm-sels-info {
+    color: black;
+}
+
+#gjs-clm-label{
+    color: black;
+}
+#gjs-clm-new{
+    color: black !important;
+}
+
+.gjs-clm-tag{
+    background-color: #E65925 !important;
+    color: white;
+}
+
+.panel__top {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: initial;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .panel__basic-actions {
+    position: initial;
+  }
+
+.section_block_button{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    position: absolute;
+    z-index: 4;
+    top: 15%;
+}
+
+.section_block_button button{
+    margin: 5px;
+}
+
+  .section_button{
+    color: white;
+    background-color: #E65925;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .block_button{
+    color: white;
+    background-color: #8A8A8A;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .gjs-pn-views-container {
+    width: 20%;
+    /* background-color: #E65925 !important; */
+  }
+
+  /* .fa-undo:before {
+    content: "\f0e2";
+  } */
+  
+  .fa-undo::after {
+    content: "Undo";
+    position: absolute;
+    left: 30px;
+    top: 4px;
+    font-size: 16px;
+    color: #c4c3c1;
+  }
+  .fa-repeat::after {
+    content: "Redo";
+    position: absolute;
+    right: 30px;
+    top: 4px;
+    font-size: 16px;
+    color: #c4c3c1;
+  }
+  .fa-eye::after {
+    content: "Preview";
+    position: absolute;
+    left: 30px;
+    top: 4px;
+    font-size: 16px;
+    color: #c4c3c1;
+  }
+
+/* 
+  .gjs-pn-command {
+    width: 60%;
+  } */
+
+  .gjs-pn-options {
+    width: 25%;
+  }

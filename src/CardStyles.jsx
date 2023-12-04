@@ -1,14 +1,14 @@
 export const cardStyles = `
 .default-section { 
-    min-height: 100%; 
-    display: flex; 
-    flex-direction:column; 
-    align-items:center; 
-    border: 1px solid #ccc; 
-    max-width: 400px; 
-    padding: 20px; 
-    margin: 0 auto; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    // min-height: 100%; 
+    // display: flex; 
+    // flex-direction:column; 
+    // align-items:center; 
+    // border: 1px solid #ccc; 
+    // max-width: 400px; 
+    // padding: 10px 20px 0px 20px; 
+    // margin: 0 auto; 
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .onetap_conn_card_container {

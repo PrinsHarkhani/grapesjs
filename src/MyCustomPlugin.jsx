@@ -75,7 +75,7 @@ export default (editor, opts = {}) => {
 
 
      // Define custom blocks
-     addCustomBlock('blockId1', 'Business Intro');
+     addCustomBlock('blockId1', `Business Intro`);
      addCustomBlock('blockId2', 'About me');
 
  
