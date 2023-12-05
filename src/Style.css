@@ -58,9 +58,9 @@
 
 #layers-container{
     position: absolute;
-    width: 15%;
+    width: 190px;
     /* left: 1; */
-    top: 30%;
+    top: 170px;
 }
 
 .gjs-layers {
@@ -181,10 +181,10 @@
 .section_block_button{
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 190px;
     position: absolute;
     z-index: 4;
-    top: 15%;
+    top: 80px;
 }
 
 .section_block_button button{

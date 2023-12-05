@@ -18,7 +18,7 @@ const WebBuilder = () => {
 
   // const projectId = getProjectId();
   const projectID = 1;
-  const projectEndpoint = `http://localhost:3000/projects/${projectID}`;
+  const projectEndpoint = `http://localhost:300/projects/${projectID}`;
 
   const [selectedContent, setSelectedContent] = useState("")
   const [selectedComponent, setSelectedComponent] = useState(null);
